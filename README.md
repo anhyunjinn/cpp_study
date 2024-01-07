@@ -7,7 +7,7 @@
   Single Linked List로 구현
   <h3><조건></h3>
   - 각각의 노드가 1개의 class 일 것  
-  - 삽입, 삭제, 검색 기능 구현
+  - 삽입, 삭제, 검색 기능 구현  
 <h2>2. Binary Search Tree (이진탐색트리)</h2>
   <h3><조건></h3>
   - class로 구현
