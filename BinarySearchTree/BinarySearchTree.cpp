@@ -110,18 +110,7 @@ std::shared_ptr<Node> binarySearchTree::search_node(int value)
             curNode = curNode->rightChild;
         }
     }
+
     std::cout<<"검색한 값인 "<<value<<"를 찾지 못했습니다."<<std::endl;
     return nullptr;
-}
-
-
-int main(void){
-    binarySearchTree bst;
-    bst.insert_node(4);
-    bst.insert_node(1);
-    bst.insert_node(8);
-    bst.insert_node(4);
-    bst.insert_node(6);
-    bst.search_node(6);
-    bst.search_node(3);
 }
