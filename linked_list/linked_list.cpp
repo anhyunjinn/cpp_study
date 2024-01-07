@@ -1,24 +1,5 @@
-#include <iostream>
-
-class Node {
-    public:
-        int data;
-        Node* next;
-};
-
-class LinkedList {
-    private:
-        Node* head;
-        Node* tail;
-        Node* cur;
-    
-    public:
-        LinkedList() : head(nullptr), tail(nullptr), cur(nullptr){}
-        void insert_node(int);
-        void search_node(int);
-        void delete_node(int);
-        void print_list();
-};
+#inclue <iostream>
+#include "linked_list.h"
 
 //삽입
 void LinkedList::insert_node(int data) {
@@ -91,19 +72,4 @@ void LinkedList::print_list(){
         cur = cur->next;
     }
     std::cout<<"출력 완료"<<std::endl;
-}
-
-int main(void){
-    LinkedList list;
-    list.insert_node(1);
-    list.insert_node(2);
-    list.insert_node(3);
-
-    list.search_node(1);
-    list.search_node(3);
-
-    list.delete_node(2);
-    list.delete_node(3);
-
-    list.print_list();
 }
