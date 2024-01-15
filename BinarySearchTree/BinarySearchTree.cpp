@@ -174,6 +174,8 @@ std::shared_ptr<Node> binarySearchTree::search_node(int value)
     return nullptr;
 }
 
+/*서브트리의 가장 작은 값을 찾아 반환하는 함수
+삭제 기능에서 사용*/
 std::shared_ptr<Node> binarySearchTree::min_search(std::shared_ptr<Node> &subTree){
     while (subTree->leftChild){
         subTree = subTree->leftChild;
