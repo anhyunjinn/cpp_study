@@ -13,4 +13,6 @@ BinarySearchTree 헤더 파일의 클래스 내부 함수들 상세 구현<br/>
 <h3>main.cpp</h3>
 BinarySearchTree.h와 BinarySearchTree.cpp 파일을 실제로 실행하는 파일
 <h3>실행 결과</h3>
-![image](https://github.com/anhyunjinn/cpp_study/assets/101036684/2840768f-ce42-430e-96da-b171f79e607b)
+<p align="center">
+  <img src="https://github.com/anhyunjinn/cpp_study/assets/101036684/67658ab0-8ce4-4ccb-bfff-3a944455e786">
+</p>
