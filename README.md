@@ -17,3 +17,4 @@
     - 검색 : 입력값 int, 반환값 노드<br/>
 <h2>3. Quick Sort (퀵소트)</h2>
   1에서 구현했던 Single Linked List에 퀵소트 구현
+  Linked List 폴더 내에 존재
