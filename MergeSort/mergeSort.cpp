@@ -5,7 +5,7 @@ void MergeSort::Sort(std::vector<int>& vec) {
     int size = vec.size();
 
     if (size > 1){
-        while(CheckSorted(vec)!=true){
+        if(CheckSorted(vec)!=true){
             int mid = size / 2;
             std::vector<int> left(vec.begin(), vec.begin()+mid);
             std::vector<int> right(vec.begin()+mid, vec.end());
