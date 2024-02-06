@@ -18,3 +18,5 @@
 <h2>3. Quick Sort (퀵소트)</h2>
   1에서 구현했던 Single Linked List에 퀵소트 구현<br/>
   Linked List 폴더 내에 존재
+<h2>4. Merge Sort (머지소트)</h2>
+  벡터에 머지소트 구현
